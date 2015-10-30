@@ -2,6 +2,10 @@
 
 QuickNDirty monitoring of kws/hashtags from twitter : send self-mails using smtp server for new tweets matching search (use of search api)
 
+## Note :
+
+tweets filtered if contains URL and a valid email -- filtering conditions have still to be generalized and customizable
+
 ## Use :
 
  - Get a twitter dev account and app token
