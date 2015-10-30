@@ -8,7 +8,7 @@
 
 from TwitterSearch import *
 #from validate_email import validate_email
-import re
+import re,os
 import smtplib
 from email.mime.text import MIMEText
 
@@ -66,6 +66,8 @@ def main():
         search = ts.search_tweets_iterable(tso)
 
         # get previous request ids from file --DIRTY--
+        if !os.path.exists('previous'): open('previous', 'a').close()
+        
         previous = open('previous','r')
         prev = dict()
         for i in [s.replace('\n','') for s in previous.readlines()]:
