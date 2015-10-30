@@ -16,5 +16,5 @@ QuickNDirty monitoring of kws/hashtags from twitter : send self-mails using smtp
     smtp_host:$SMTP
     smtp_port:$SMTP_PORT
 
-  - run by hand or put in cron
+ - run by hand or put in cron
   
