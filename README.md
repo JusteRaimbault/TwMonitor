@@ -10,15 +10,22 @@ tweets filtered if contains URL and a valid email -- filtering conditions have s
 
  - Get a twitter dev account and app token
  - Have TwitterSearch python package installed ;
- - Required conf file :
+ - Required conf file (in 'conf' file)
     key:$KEY
+
     secret:$SECRET
+    
     token:$TOKEN
+    
     token_secret:$TOKEN_SECRET
+    
     mail:$MAIL
+    
     pwd:$PASSWORD
+    
     smtp_host:$SMTP
+    
     smtp_port:$SMTP_PORT
 
- - run by hand or put in cron
+ - run by hand or put in cron , keywords by line in 'keywords' file
   
